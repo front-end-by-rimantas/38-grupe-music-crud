@@ -10,10 +10,10 @@ console.log(raimonda.intro());
 console.log(raimonda.songPrice(15));
 // Raimonda's price per song is 0.15 EUR;
 
-console.log(raimonda.addSong('Bumciki'));
-console.log(raimonda.addSong('Tra lia lai'));
-console.log(raimonda.addSong('Oj lijo lijo'));
-console.log(raimonda.addSong('Kai grazumo'));
+raimonda.addSong('Bumciki');
+raimonda.addSong('Tra lia lai');
+raimonda.addSong('Oj lijo lijo');
+raimonda.addSong('Kai grazumo');
 
 console.log(raimonda.playlist());
 // Raimonda's playlist:
